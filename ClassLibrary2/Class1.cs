@@ -17,6 +17,15 @@ namespace ClassLibrary2
             throw new NotImplementedException("Please create a test first");
         }
 
+        public bool IsNotPrime(int candidate)
+        {
+            if (candidate != 1)
+            {
+                return false;
+            }
+            throw new NotImplementedException("Please create a test first");
+        }
+
         public bool IsEven(int candidate)
         {
             return candidate % 2 == 0;
